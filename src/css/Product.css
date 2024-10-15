@@ -1,0 +1,47 @@
+.image {
+    width: 180px;
+    border-radius: 10px;
+    align-self: center;
+    object-fit: scale-down;
+}
+
+.card {
+    width: 200px;
+    height: 500px;
+    margin: 15px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 1px 4px 3px grey;
+    transform: scale(1.03);
+    transition: transform 1.0s;
+    cursor: pointer;
+}
+
+.addToCart {
+    width: 120px;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 8px;
+    background-color: #0D60B7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cartRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
